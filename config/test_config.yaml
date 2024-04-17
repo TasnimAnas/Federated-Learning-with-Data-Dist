@@ -1,0 +1,17 @@
+sys_n_client: 10
+sys_n_local_class: 10
+sys_dataset: "MNIST"
+sys_model: "LeNet"
+sys_i_seed: 0
+sys_res_root: "results"
+server_n_epoch: 20
+server_bs: 50
+server_lr: 0.001
+server_momentum: 0.9
+server_n_worker: 1
+client_instance: "kip_distill"
+client_n_dd: 10
+client_instance_lr: 0.004
+client_instance_bs: 10
+client_instance_max_n_epoch: 3000
+client_instance_threshold: 0.99
