@@ -1,6 +1,7 @@
 ### Examples 
 
 * **Examples I** Run FedD3 on IID MNIST with nc clients:
+
 `python fedd3_main.py --config "./config/test_config.yaml"`
 
 
